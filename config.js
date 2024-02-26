@@ -1,2 +1,2 @@
 export const frameRate = 10;
-export const size = 20;
+export const size = 30;

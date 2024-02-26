@@ -10,7 +10,7 @@ export default class Element {
   name;
   target;
   danger;
-  speed = 300;
+  speed = 100;
   size = size;
 
   id;

@@ -4,7 +4,7 @@ import Scissors from "./classes/scissors.js";
 
 console.log("main.js");
 
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 10; i++) {
   const rock = new Rock();
   const paper = new Paper();
   const scissors = new Scissors();
