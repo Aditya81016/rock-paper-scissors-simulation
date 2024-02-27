@@ -1,4 +1,4 @@
-import { frameRate, size } from "../config.js";
+import { frameRate, size, speed } from "../config.js";
 import calcDistance from "../utils/calcDistance.js";
 import calcAngle from "../utils/clacAngle.js";
 import findClosest from "../utils/findClosest.js";
@@ -10,7 +10,7 @@ export default class Element {
   name;
   target;
   danger;
-  speed = 100;
+  speed = speed;
   size = size;
 
   id;
@@ -99,8 +99,6 @@ export default class Element {
       Math.abs(targetDistance - dangerDistance) < this.size * 2
     )
       angleToMove = -angleToDanger;
-
-    console.log(targetDistance < dangerDistance, (angleToMove * 180) / Math.PI);
 
     // this.element.style.rotate = angleToTarget + "rad";
 

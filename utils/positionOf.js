@@ -7,6 +7,5 @@ export default function positionOf(element) {
 }
 
 function int(px) {
-  console.log(px);
   return parseInt(px.replace("px", ""));
 }
