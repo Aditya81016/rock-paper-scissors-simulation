@@ -3,7 +3,7 @@ let size = 30;
 let quantity = 20;
 let speed = 100;
 
-let timeoutInterval = 1;
+let timeoutInterval = 1000;
 
 const params = window.location.search.substring(1).split("&");
 params.forEach((param) => {
